@@ -12,8 +12,17 @@
     .td-data{
         @apply h-fit my-auto;
     }
+    .w-90{
+        width: 360px;
+    }
+    .w-120{
+        width: 500px;
+    }
+    .w-200{
+        width:850px;
+    }
     .license-div{
-        @apply w-96 mx-auto bg-gray-300 flex rounded-l-full my-4 border-r-4 border-rose-500;
+        @apply w-90 md:w-120 mx-auto bg-gray-300 flex rounded-l-full my-4 border-r-4 border-rose-500;
     }
     .certificate-link{
         @apply text-lg hover:text-rose-700 ease-in-out duration-200;
