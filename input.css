@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @layer components{
+    .selected-nav-item{
+        @apply bg-pink-600 rounded-full;
+    }
     .custom-nav-items{
-        @apply text-center text-lg text-gray-200 py-2 border-b-2 border-rose-700 md:px-4 md:border-0 md:hover:bg-pink-600 md:rounded-full ease-in-out duration-300;
+        @apply text-center text-lg text-gray-200 py-2 border-b-2 border-rose-700 md:px-4 md:border-0 ease-in-out duration-300;
     }
     .skill-card{
         @apply bg-gray-100 border-4 border-sky-500 p-8 rounded-xl my-4 hover:drop-shadow-2xl ease-in-out duration-300;
