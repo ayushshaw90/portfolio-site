@@ -75,3 +75,15 @@ window.onscroll = ()=>{
     }
 }
 home_link.classList.add("md:selected-nav-item")
+
+let show_menu=false;
+let list = document.getElementById("nav-menu-items")
+let menu = document.getElementById("menu")
+menu.addEventListener("click", ()=>{
+    show_menu=!show_menu
+    if(show_menu){
+        list.classList.remove("hidden")
+    }else{
+        list.classList.add("hidden")
+    }
+})
